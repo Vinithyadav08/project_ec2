@@ -11,7 +11,7 @@ app.set('view engine','ejs');
 
 /************DB-connect*************/
 
-mongoose.connect("mongodb+srv://vinupvg2003:vinith@cluster0.lq6n6ni.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://yourpassword.mongodb.net/?retryWrites=true&w=majority")
 .then(function(){
     console.log("Connected Successfully to DataBase");
 }).catch(function(err){
